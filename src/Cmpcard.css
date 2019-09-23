@@ -1,0 +1,17 @@
+.test{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #D40000;
+    font-size: 150%;
+}
+.text{
+    text-align: center;
+}
+.test2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 150%;
+    color: rgb(140, 0, 255);
+}

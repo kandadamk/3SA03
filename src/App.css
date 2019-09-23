@@ -1,0 +1,66 @@
+body{
+  background-image: url("BG.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 2500px;
+  margin-bottom: 10px;
+}
+.card {
+  display: inline-block;
+  text-align: center;
+  width: 4em;
+  font-size: 2em;
+  color: #FF00FF;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  margin: 1em;
+  user-select: none;
+  cursor: pointer;
+  border-radius: 10px;
+  background: #FF99FF;
+ }
+ .card:hover{
+   background: #FFE5B4;
+   color: #E8A317;
+ }
+ .activeCard {
+  color: #3300FF;
+  background: #33CCFF;
+ }
+ .Textname{
+   text-align: center;
+   font-size: 300%;
+   color: #F16043;
+ }
+.button{
+  border: none;
+  padding: 2.5px 5.5px;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px 1px;
+  margin-left: 44%;
+  cursor: pointer;
+  background-color: #FF66CC;
+  color: #660099;
+  border: 2px solid #FF99FF;
+  border-radius: 6px;
+  display: inline-block;
+  justify-content: center;
+}
+.well{
+  text-align: center;
+  color: #00CC00;
+  font-weight: bold;
+  font-size: 250%;
+}
+.result{
+  display: flex;
+  justify-content: center;
+  color: #00CC00;
+  font-size: 250%;
+}
+.play{
+  text-align: center;
+  color: #0091FF;
+  font-weight: bold;
+  font-size: 250%;
+}
