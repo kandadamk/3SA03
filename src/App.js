@@ -74,7 +74,7 @@ class App extends React.Component {
           ))
         }
         <div>
-          <h2 className="play"> Can play 3 times </h2>
+          <h2 className="play"> Can play 2 times </h2>
         </div>
         {
           Array.from(this.state.guess).map((item, index) => (

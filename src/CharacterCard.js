@@ -10,7 +10,7 @@ class CharacterCard extends React.Component {
         this.setState({
             active: true
         });
-        if (this.props.number > 3) {
+        if (this.props.number > 2) {
             this.setState({
                 active: true
             });
