@@ -5,7 +5,7 @@ import CharacterCard from './CharacterCard';
 import './App.css';
 import _ from 'lodash';
  
-const message = 'ADVANCE'
+const message = 'advance'
  
 const prepareStateFromWord = (given_word) => {
   let word = given_word.toUpperCase()
