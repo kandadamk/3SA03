@@ -61,7 +61,7 @@ class App extends React.Component {
     return (
       <div>
         <div> <Start /> </div>
-        <div className=""><h2 className="Textname">Create by 6035512030</h2> </div>
+        <div className=""><h2 className="Textname">Create by Kanda 6035512030</h2> </div>
         {
           Array.from(this.state.chars).map((item, index) => (
             <CharacterCard
